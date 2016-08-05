@@ -106,6 +106,6 @@ function setNextQuestionId(matchId) {
 	};
 }
 
-server.listen(process.env.PORT || 8080, '127.0.0.1', function(){
+server.listen(process.env.PORT || 8080, function(){
 	console.log("Listening...");
 });
